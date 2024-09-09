@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/stsagarino/Desktop/play-fullstack-ricknmorty/conf/logback.xml,/Users/stsagarino/Desktop/play-fullstack-ricknmorty/target/scala-3.3.1/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/stsagarino/Desktop/play-fullstack-ricknmorty/conf/messages,/Users/stsagarino/Desktop/play-fullstack-ricknmorty/target/scala-3.3.1/classes/messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/stsagarino/Desktop/play-fullstack-ricknmorty/conf/application.conf,/Users/stsagarino/Desktop/play-fullstack-ricknmorty/target/scala-3.3.1/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/stsagarino/Desktop/play-fullstack-ricknmorty/conf/routes,/Users/stsagarino/Desktop/play-fullstack-ricknmorty/target/scala-3.3.1/classes/routes)[0m
