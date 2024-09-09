@@ -1,4 +1,4 @@
-@()
+@(res:List[domain.characters.Result])
 
 @main("Welcome to Play") {
   <div>
@@ -9,8 +9,16 @@
       <h2>Welcome to <span class="creepster">Rick n Morty</span> Wiki!</h2>
       <img class="center" src="https://i.ytimg.com/vi/k0TWLSQVBpM/maxresdefault.jpg">
     <h2>Main Characters</h2>
-    <!-- <div class="main-characters-container">
-      
-    </div> -->
+    <div class="main-characters-container">
+      @for(r <- res.take(5)){
+          
+          <div class="content">
+            <a href="@r.origin.url">
+              <img class="main-characters" src="@r.image">
+              <p class="main-characters-name">@r.name</p>
+            </a>
+          </div>
+      }
+    </div>
   </div>
 }
